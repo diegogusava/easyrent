@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import br.com.easyrent.domain.RealEstate;
 
 @Repository
-public interface IRealEstateRepository extends CrudRepository<RealEstate, Long>{
+public interface IRealEstateRepository extends CrudRepository<RealEstate, String>{
 
 }

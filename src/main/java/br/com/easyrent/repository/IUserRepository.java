@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import br.com.easyrent.domain.User;
 
 @Repository
-public interface IUserRepository extends CrudRepository<User, Long>{
+public interface IUserRepository extends CrudRepository<User, String>{
 
 }
